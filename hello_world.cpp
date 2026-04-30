@@ -1,10 +1,11 @@
-#include <iostream>
-#include <string>
-using namespace std;
+#include<isotream>
+#include<string>
+//main func
 int main(){
-    string name;
-    cout << "запрашивается имя";
-    cin >> name;
-    cout << "Hello world from:" << name << endl;
+    std::string name;
+    std::cout << "your name";
+    std::cin >> name: //you can give youe name
+    //output name
+    std::cout << "hello" << name << std::endl;
     return 0;
 }
