@@ -1,3 +1,4 @@
+HEAD
 #include<isotream>
 #include<string>
 //main func
@@ -8,4 +9,22 @@ int main(){
     //output name
     std::cout << "hello" << name << std::endl;
     return 0;
+
+#include <isotream>
+#include <string>
+// main func
+int
+main()
+{
+  std::string name;
+  std::cout << "your name";
+  std::cin >> name
+    : // you can give youe name
+      // output name
+      std::cout
+      << "hello"
+      << name
+      << std::endl;
+  return 0;
+d7df71d (apply mozilla code style)
 }
