@@ -26,7 +26,7 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M master
-git remote add origin https://github.com/qNetayS/lab02.git
+git remote add origin "//github.com/qNetayS/lab02.git"
 git push -u origin master
 ```
 ### 3.Создание hello_world.cpp с плохим стилем 
